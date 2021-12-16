@@ -61,7 +61,11 @@
 	},
 	"main": "./dist/extension.js",
 	"activationEvents": [
-		"*"
+		"onDebugResolve:sourcepawn",
+		"onDebugDynamicConfigurations:sourcepawn",
+		"onCommand:extension.sourcepawn-remote-debug.getProgramName",
+		"onCommand:extension.sourcepawn-remote-debug.runEditorContents",
+		"onCommand:extension.sourcepawn-remote-debug.debugEditorContents"
 	],
 	"contributes": {
 		"breakpoints": [
