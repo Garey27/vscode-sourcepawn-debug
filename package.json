@@ -1,7 +1,7 @@
 {
 	"name": "sourcepawn-remote-debug",
 	"displayName": "SourcePawn Remote Debugger",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"publisher": "Garey27",
 	"description": "sourcepawn remote debugger",
 	"author": {
