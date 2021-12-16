@@ -21,10 +21,10 @@
 	"private": true,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Garey27/vscode-amxx-debug"
+		"url": "https://github.com/Garey27/vscode-sourcepawn-debug"
 	},
 	"bugs": {
-		"url": "https://github.com/Garey27/vscode-amxx-debug/issues"
+		"url": "https://github.com/Garey27/vscode-sourcepawn-debug/issues"
 	},
 	"scripts": {
 		"prepublish": "tsc -p ./src",
